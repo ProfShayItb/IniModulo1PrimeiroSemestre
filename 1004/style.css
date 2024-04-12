@@ -10,7 +10,16 @@
     text-shadow: -2px 0px 3px red;/*horizontal, vertical desfoque cor*/
     font-family: "Roboto", sans-serif;/*Família das fontes*/
     font-weight: bolder;/*peso da fonte - 100 a 900, lighter, bold, bolder*/
-    font-size: ;
+    font-size:  1.3em;
+    font-variant: small-caps;
+    text-indent: 50px;
+    font-style: italic;/*normal, italic,oblique*/
+    
+    /*Shorthand
+    font: style variant weight size family*/
+
+    font: italic small-caps bolder 50px "Roboto", sans-serif;
+
 
 }
 
