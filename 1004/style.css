@@ -3,6 +3,23 @@
 
 #txttransform{
     text-transform: capitalize;/*lowercase - todas em minúsculas, uppercase - todas em maiúscula, capitalize - a primeira letra de cada palavra em maiúscula*/
+    text-align: justify;/*Alinhamento de texto - left right center justify*/
+    text-indent: 30px;/*recuo de primeira linha*/
+    border: 3px solid red;
+
+    /*Padding - espaço dentro da caixa*/
+    padding-top: 50px;/*topo - cima*/
+    padding-right: 80px; /*Direita*/
+    padding-bottom: 90px; /*Inferior*/
+    padding-left: 100px; /*Esquerda*/
+
+
+    padding: 50px;/*4 lados iguais*/
+    padding: 50px 100px;/* (top, bottom) (left-right)*/
+    padding: 50px 80px 90px 100px;/*4 lados diferentes (top rigth bottom left)*/
+    
+    /*margin - espaço fora da caixa, entre um elemento e outro*/
+
 
 }
 
@@ -18,7 +35,7 @@
     /*Shorthand
     font: style variant weight size family*/
 
-    font: italic small-caps bolder 50px "Roboto", sans-serif;
+    font: italic small-caps bolder 16px "Roboto", sans-serif;
 
 
 }
