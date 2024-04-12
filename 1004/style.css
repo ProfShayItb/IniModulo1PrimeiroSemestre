@@ -19,7 +19,17 @@
     padding: 50px 80px 90px 100px;/*4 lados diferentes (top rigth bottom left)*/
     
     /*margin - espaço fora da caixa, entre um elemento e outro*/
+    /*margin: auto;*/
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    margin-left: 90px;
 
+    margin: 50px 90px 180px 30px;/*4 lados diferentes top right bottom left*/
+    margin: 50px;/*4 lados iguais*/
+    margin: 50px 90px;/* (top bottom) (right-left)*/
+
+    /*Borda - border*/
 
 }
 
