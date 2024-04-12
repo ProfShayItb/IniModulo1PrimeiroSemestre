@@ -1,0 +1,40 @@
+nav{
+    background-color: yellow;
+
+}
+
+a{
+    color: green;
+    text-decoration-line: line-through;/*none, overline, underline, line-through*/
+    text-decoration-color: red;
+    text-decoration-style:solid;/*solid,dotted, dashed, double*/
+    text-decoration-thickness: 5px;/*px, em, rem, %*/
+
+    /*Shorthand
+
+    text-decoration: line color style thickness;
+}*/
+
+    text-decoration: line-through red 
+    
+    solid 5px;
+}
+/* #link4{
+    text-decoration-line: none;
+}
+
+.links{
+    font-size: 36px;
+} */
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+/* nome, hexadecimal, rgb, hsl */
+
+/*Decoração de texto*/
+

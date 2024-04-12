@@ -1,0 +1,54 @@
+/*Selecionando por tag */
+
+p{
+    background-color: green;
+}
+
+body{
+    background-color: yellowgreen;/*Cor de fundo*/
+    background-image: url(imagem.jpg);/*Imagem de fundo*/
+    background-size: 50px;/*Tamanho da imagem de fundo (x, y)*/
+    background-repeat:no-repeat;/*Se a imagem de fundo irá ou não repetir (repeat, no-repeat, repeat-x, repeat-y)*/
+    background-position: right bottom;/*center (horizontal-left/right)/(vertical - top/bottom) - (x,y)*/
+    background-attachment: scroll;/*propriedade que diz se a imagem vai rolar ou não - fixed, scrool*/
+
+    /*shorthand - jeito curto/ jeito abreviado
+
+    background: color imagem repeat attachment position;*/
+
+    background: yellowgreen url(imagem.jpg) no-repeat fixed center;
+    color: white;
+
+
+
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: green;
+    font-size: 50px;
+}
+
+a:visited{
+    color: yellow;
+}
+
+/*Selecionando por ID #*/
+#nomequevcquiser{
+    background-color: red;
+}
+
+/*Selecionando por class (.) */
+.paragrafos{ 
+    background-color: aquamarine;
+
+
+}
+
+
+
+
+
