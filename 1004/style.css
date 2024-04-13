@@ -30,7 +30,11 @@
     margin: 50px 90px;/* (top bottom) (right-left)*/
 
     /*Borda - border*/
-
+    border-width: 30px;/*largura da borda*/
+    border-style: dashed;/*dotted, double, dashed, solid*/
+    border-color: rgb(141, 240, 141);/*cor da borda*/
+    border: 30px solid rgb(141, 240, 141);/*border: width style color*/
+    border-radius: 10px;/*Arredondamento das vértices*/
 }
 
 #txtsombra{
