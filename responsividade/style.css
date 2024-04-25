@@ -1,0 +1,29 @@
+h1{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+
+img{
+    width: 600px;
+}
+
+@media(max-width: 600px){
+    h1{
+        background-color: red;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+@media(min-width: 605px){
+    h1{
+        background-color: orange;
+    }
+
+    img{
+        width: 90%;
+    }
+}
