@@ -22,10 +22,11 @@
     background-color: darkgray;
     min-height: 100vh;/*Viewport height*/
     display: flex; /*flexbox*/
-    flex-direction: row;/*direção do flex - row,column, row-reverse, column-reverse*/
+    flex-direction: row;/*direção do flex - row,column, row-reverse, column-reerse*/
     column-gap: 20px;/*Distância entre as colunas dentro do flex*/
     row-gap: 20px; /*Distância entre as linhas dentro do flex*/
-    justify-content: ;/*Direção como linha - faz o alinhamento na horizontal. Direção como coluna - faz o alinhamento na vertical (center, start, end, space-between, space-around, space-evenly*/
-
+    flex-wrap: wrap;/*Quebra de linha dos itens (nowrap/ wrap) */
+    justify-content: center;/*Direção como linha - faz o alinhamento na horizontal. Direção como coluna - faz o alinhamento na vertical (center, start, end, space-between, space-around, space-evenly*/
+    align-items: flex-end;/*Se direção estiver como linha, o alinhamento é feito na vertical. Se a direção estiver como coluna, o alinhamento é feito na horizontal.- center, flex-start, flex-end, space-around, space-between*/
 
 }
